@@ -37,7 +37,7 @@ public class DruidConfig {
         Map<String,String> initParams=new HashMap<>();
         initParams.put("loginUsername","admin");
         initParams.put("loginPassword","123");
-        initParams.put("allow","loaclhost");//不写localhost就是允许所有访问
+        initParams.put("allow","localhost");//不写localhost就是允许所有访问
         initParams.put("deny","192.168.15.11");
         bean.setInitParameters(initParams);
 
